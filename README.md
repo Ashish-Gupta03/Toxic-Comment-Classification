@@ -29,7 +29,7 @@ Approach:-
 
 For running code
 * Download Input files used https://drive.google.com/drive/folders/1SaPn9Ccn4dLYZq-dqBXVysoyA5v19s7i
-* Install Keras
+* Install Keras >= 2.0.x
 * Run ```download.sh``` to download glove embeddings.
 * Run ```jupyter notebook Toxic_code_LSTM.ipynb```.
 
