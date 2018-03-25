@@ -1,5 +1,11 @@
 # Toxic-Comment-Classification
 Challenge is to build a multi-headed model that’s capable of detecting different types of of toxicity like threats, obscenity, insults, and identity-based hate. Data comprises of comments from Wikipedia’s talk page edits.
+Approaches:- 
+* There are 2 approaches used for it.
+    * Basic LogisticRegression using words and characters ngrams.
+    * Using Deep Learning BiLSTM and using Glove embeddings. Below is the explanation for BiLSTM, GLove embeddings approach.
+
+I will be explaining second approach below as this gave me best results and is something new to try out.
 
 Approach:-
 * Preprocess data
@@ -21,6 +27,10 @@ Approach:-
 * Fit the model and run for 5 epochs(after that it converges).
 * Perform k fold with number of folds = 4.
 
+For running code
+* Download Input files used https://drive.google.com/drive/folders/1SaPn9Ccn4dLYZq-dqBXVysoyA5v19s7i
+* Install Keras
+* Run ```download.sh``` to download glove embeddings.
+* Run ```jupyter notebook Toxic_code_LSTM.ipynb```.
 
-To download Input files used https://drive.google.com/drive/folders/1SaPn9Ccn4dLYZq-dqBXVysoyA5v19s7i
 For more details click the link https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge
