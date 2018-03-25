@@ -3,7 +3,7 @@ Challenge is to build a multi-headed model that’s capable of detecting differe
 Approaches:- 
 * There are 2 approaches used for it.
     * Basic LogisticRegression using words and characters ngrams.
-    * Using Deep Learning BiLSTM and using Glove embeddings. Below is the explanation for BiLSTM, GLove embeddings approach.
+    * Using Deep Learning BiLSTM and using Glove embeddings. Below is the explanation for BiLSTM, Glove embeddings approach.
 
 I will be explaining second approach below as this gave me best results and is something new to try out.
 
