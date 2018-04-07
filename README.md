@@ -34,3 +34,4 @@ For running code
 * Run ```jupyter notebook Toxic_code_LSTM.ipynb```.
 
 For more details click the link https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge
+This model gave 0.9858 on Public LB and ensemble gave 0.9863 on Private LB. Ranked among Top 11%.
